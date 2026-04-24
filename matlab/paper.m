@@ -180,6 +180,9 @@ a2 = abs(pi)^2;
 Hz{4,1} = tf([b0, b1], [1, a1, a2], Ts);
 
 
+save('Hz.mat', "Hz");
+
+
 
 
 
