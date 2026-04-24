@@ -5,4 +5,4 @@ artigo do **shaper** desenvolvido para o IEEE journals.
 
 ## Pastas
 - **matlab**: Arquivos de análises do matlab.
-- **verilog**: Arquivos de análises em FPGA, com o Vivado.
+- **project_1**: Arquivos de análises em FPGA, com o Vivado.
