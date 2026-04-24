@@ -119,6 +119,9 @@ H_shifted = Hs*H_pade;
 
 % Digitaliza
 [num_dig, den_dig] = impinvar(num_sh, den_sh, fs);
+
+% Normalização
+num_dig = num_dig * (fs/ys_max);
 [y_dig, t_dig] = impz(num_dig, den_dig);
 t_dig_ns = t_dig*Ts*1e9;
 
